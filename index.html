@@ -1,1 +1,767 @@
-<h1>hello</h1>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        Education Stats
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1cbbb02fe6.js" crossorigin="anonymous"></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        Ascent Elementary School
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top bar -->
+    <div class="bg-[#E91657] text-white text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 px-4 py-2">
+            <div class="flex flex-wrap items-center gap-4">
+                <div class="flex items-center gap-1">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>(629) 555-0129</span>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@example.com</span>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>6391 Elgin St. Celina, 10299</span>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <a href="#" aria-label="Facebook"
+                    class="w-7 h-7 rounded border border-white flex items-center justify-center hover:bg-white hover:text-[#E91657] transition">
+                    <i class="fab fa-facebook-f text-xs"></i>
+                </a>
+                <a href="#" aria-label="X"
+                    class="w-7 h-7 rounded border border-white flex items-center justify-center hover:bg-white hover:text-[#E91657] transition">
+                    <i class="fab fa-x-twitter text-xs"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn"
+                    class="w-7 h-7 rounded border border-white flex items-center justify-center hover:bg-white hover:text-[#E91657] transition">
+                    <i class="fab fa-linkedin-in text-xs"></i>
+                </a>
+                <a href="#" aria-label="Pinterest"
+                    class="w-7 h-7 rounded border border-white flex items-center justify-center hover:bg-white hover:text-[#E91657] transition">
+                    <i class="fab fa-pinterest-p text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="bg-white">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+            <div class="flex items-center gap-2">
+                <img alt="Ascent logo" class="w-10 h-10" height="40"
+                    src="https://ascent-tailwind.vercel.app/assets/images/logo.png" width="40" />
+                <span class="font-semibold text-xl select-none">Ascent</span>
+            </div>
+            <nav class="hidden md:flex gap-6 text-sm font-semibold text-[#222]">
+                <a href="#" class="hover:text-[#E91657]">Home</a>
+                <a href="#" class="hover:text-[#E91657]">About Us</a>
+                <a href="#" class="hover:text-[#E91657]">Services</a>
+                <a href="#" class="hover:text-[#E91657]">Blog</a>
+                <a href="#" class="hover:text-[#E91657]">Page</a>
+                <a href="#" class="hover:text-[#E91657]">Contact Us</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <button aria-label="Search" class="text-black text-lg hover:text-gray-600 transition">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button
+                    class="bg-[#6CB64B] hover:bg-[#1cbbb4] text-white text-base font-medium px-8 py-3 rounded-md transition-all duration-500 ease-in-out">
+                    Get A Quote
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                <button aria-label="Menu" class="text-black text-3xl md:hidden focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Banner/Hero Section -->
+    <section id="hero-section" class="bg-[#FDEEE3]">
+        <div class="w-full flex flex-col items-center">
+            <div class="w-full flex flex-col md:flex-row items-center justify-between px-0 md:px-0 py-10 max-w-none">
+                <!-- Left image -->
+
+                <div class="flex-1 flex justify-center md:justify-end">
+                    <div
+                        class="rounded-full border-4 border-[#F4A261] overflow-hidden w-56 h-56 md:w-64 md:h-64 flex items-center justify-center bg-white animate-floatY">
+                        <img alt="Boy holding stack of colorful books on his head with yellow background"
+                            class="w-48 h-48 md:w-56 md:h-56 object-cover"
+                            src="https://ascent-tailwind.vercel.app/assets/images/banner/boy_img_1.png" width="224"
+                            height="224" />
+                    </div>
+                </div>
+
+                <!-- Center text -->
+                <div class="flex-1 flex flex-col items-center md:items-center text-center px-4">
+                    <span class="text-2xl md:text-3xl text-black select-none mb-2">✦</span>
+                    <h1 class="text-3xl sm:text-5xl font-normal leading-tight mb-2">
+                        Exploring Minds<br>
+                        <span class="font-extrabold">Elementary</span>
+                        <span class="font-extrabold text-[#E91657]">School</span>
+                    </h1>
+                    <p class="text-gray-500 text-base mt-2 mb-4 max-w-md">
+                        Starting a corporate business typically involves several steps, such as develop a business
+                    </p>
+                    <button
+                        class="bg-[#6CB64B] text-white text-base font-medium px-8 py-3 rounded-md transition-all duration-500 ease-in-out bg-[length:200%_100%] bg-right hover:bg-left bg-gradient-to-l from-[#6CB64B] from-50% to-[#1cbbb4] to-50%">
+                        Learn More
+                    </button>
+                </div>
+                <!-- Right image -->
+                <div class="flex-1 flex justify-center md:justify-start mt-8 md:mt-0">
+                    <div class="relative">
+                        <!-- Image with border -->
+                        <div class="flex mt-20 items-end h-full">
+                            <div class="rounded-full border-4 border-[#7ED6D6] overflow-hidden w-56 h-56 md:w-64 md:h-64 flex items-center justify-center bg-white"
+                                style="z-index: 1;">
+                                <img alt="Smiling boy in white t-shirt with blue background and graduation cap drawings"
+                                    class="w-48 h-48 md:w-56 md:h-56 object-cover"
+                                    src="https://ascent-tailwind.vercel.app/assets/images/banner/boy_img_2.png"
+                                    width="224" height="224">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Decorative SVG -->
+                    <div class="absolute top-6 right-0 md:top-10 md:right-0">
+                        <svg width="60" height="60" fill="none" viewBox="0 0 60 60">
+                            <path d="M10 30 L30 10 L50 30" stroke="#F4A261" stroke-width="3" fill="none" />
+                            <path d="M20 40 L30 30 L40 40" stroke="#F4A261" stroke-width="3" fill="none" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rainbow and cartoon characters -->
+
+        <div class="w-[1000px] p-5 h-[300px] flex justify-start md:justify-center ml-[10px] mt-[90px] md:mt-[-50px]">
+            <img alt="Rainbow with cartoon school characters" class="w-3/4 md:w-2/3 rounded-lg shadow"
+                src="https://ascent-tailwind.vercel.app/assets/images/banner/painting.png" />
+        </div>
+
+        </div>
+    </section>
+    <main
+        class="max-w-7xl mx-auto px-6 py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 bg-white text-gray-900">
+        <!-- Left top content -->
+        <section class="space-y-4 max-w-md">
+            <p class="text-[13px] font-semibold text-[#e68a1e]">
+                Number Talks
+            </p>
+            <h2 class="font-extrabold text-[20px] md:text-[22px] leading-tight">
+                Invest in education invest
+                <br />
+                in the future
+            </h2>
+            <p class="text-[13px] text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet
+                massa
+                turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet lectus mi
+                ultricies dictum
+            </p>
+            <button
+                class="mt-2 px-4 py-2 text-[13px] border border-gray-300 rounded-md transition-all duration-500 ease-in-out bg-[length:200%_100%] bg-right hover:bg-left bg-gradient-to-l from-[white] from-50% to-[#6CB64B] to-50%"
+                type="button">
+                Get a quote
+            </button>
+        </section>
+        <!-- Right top stats -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-md">
+            <div class="flex items-center space-x-4 border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#f59e0b] text-white">
+                    <i class="fas fa-chalkboard-teacher text-lg"></i>
+                </div>
+                <div>
+                    <p class="font-extrabold text-lg leading-none">
+                        20K
+                    </p>
+                    <p class="text-[12px] text-gray-600">
+                        Running Students
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#db2777] text-white">
+                    <i class="fas fa-book-open text-lg"></i>
+                </div>
+                <div>
+                    <p class="font-extrabold text-lg leading-none">
+                        13K
+                    </p>
+                    <p class="text-[12px] text-gray-600">
+                        Completed
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#4ade80] text-white">
+                    <i class="fas fa-award text-lg"></i>
+                </div>
+                <div>
+                    <p class="font-extrabold text-lg leading-none">
+                        3K
+                    </p>
+                    <p class="text-[12px] text-gray-600">
+                        Award Winning
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 border border-gray-200 rounded-lg p-4 shadow-sm">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#14b8a6] text-white">
+                    <i class="fas fa-book-reader text-lg"></i>
+                </div>
+                <div>
+                    <p class="font-extrabold text-lg leading-none">
+                        13K
+                    </p>
+                    <p class="text-[12px] text-gray-600">
+                        Guardian Satishfaction
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Bottom left image and badges -->
+        <section class="relative max-w-2xl flex flex-row items-center gap-8">
+            <div class="relative">
+                <img alt="Group of children and teacher in classroom with books and chalkboard"
+                    class="rounded-lg shadow-md" height="350"
+                    src="https://storage.googleapis.com/a1aa/image/70a98abd-86e6-4505-8757-dbce86c273f4.jpg"
+                    width="300" />
+                <div aria-hidden="true" class="absolute -top-6 -left-0 text-black text-3xl font-extrabold select-none">
+                    <span>
+                        ✦
+                    </span>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center space-x-4 bg-[#fef3ec] rounded-lg p-6 min-w-[260px]">
+                    <div class="text-[#14b8a6] text-3xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <p class="font-extrabold text-lg leading-none">
+                            Academy
+                        </p>
+                        <p class="text-[13px] text-gray-600">
+                            Learning Ladder School
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 bg-white rounded-xl p-6 min-w-[260px] shadow-lg">
+                    <div class="text-[#14b8a6] font-extrabold text-lg leading-none">10+</div>
+                    <div>
+                        <p class="text-[13px] text-gray-600">
+                            Learning Ladder School
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bottom right text content -->
+        <section class="max-w-md space-y-4">
+            <p class="text-[13px] font-semibold text-[#14b8a6]">
+                About Us
+            </p>
+            <h2 class="font-extrabold text-[20px] md:text-[22px] leading-tight">
+                Unlocking Potential, One
+                <br />
+                Child at a just Time in school
+            </h2>
+            <p class="text-[13px] text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet
+                massa
+                turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet lectus mi
+                ultricies dictum
+            </p>
+            <button
+                class="mt-2 px-4 py-2 text-[13px] border border-gray-300 rounded-md transition-all duration-500 ease-in-out bg-[length:200%_100%] bg-right hover:bg-left bg-gradient-to-l from-[white] from-50% to-[#6CB64B] to-50%"
+                type="button">
+                Get a quote
+            </button>
+        </section>
+    </main>
+
+    <body class="bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 relative">
+            <h3 class="text-green-600 font-patrick text-center text-sm font-semibold">
+                Educational Programs
+            </h3>
+            <h2 class="text-center font-extrabold text-2xl sm:text-3xl max-w-3xl mx-auto mt-1 leading-tight">
+                Strong Foundation for Success For
+                <br class="sm:hidden" />
+                Nurturing Curiosity|
+            </h2>
+            <img alt="Illustration of two kids riding a large yellow pencil, waving and smiling"
+                class="absolute top-0 right-0 hidden sm:block w-[280px] h-[180px] object-contain -translate-y-6"
+                height="180" src="https://ascent-tailwind.vercel.app/assets/images/shapes/pencil-rocket.png"
+                style="pointer-events:none" width="280" />
+
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="relative bg-white border border-gray-100 rounded-lg p-6 pl-20 shadow-sm">
+                    <div
+                        class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-gray-100 rounded-lg p-3">
+                        <img alt="Green line icon of a car with sparkles around it" class="w-12 h-12 " height="48"
+                            src="https://storage.googleapis.com/a1aa/image/f177e76d-6dcc-4141-682e-c65ce07cf6a5.jpg"
+                            width="48" />
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2 hover:text-[#73be48] transition-colors">
+                        Online Class
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit platea the ,osr of a proin mollis pretium
+                        facilisi in, ligula volutpat
+                    </p>
+                    <a class="hover:text-[#73be48] inline-flex items-center text-sm font-normal text-black hover:underline"
+                        href="#">
+                        Read More
+                        <i class="fas fa-arrow-right ml-1">
+                        </i>
+                    </a>
+                </div>
+                <!-- Card 2 -->
+                <div class="relative bg-white border border-gray-100 rounded-lg p-6 pl-20 shadow-sm">
+                    <div
+                        class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-gray-100 rounded-lg p-3">
+                        <img alt="Green line icon of a shopping cart with sparkles around it" class="w-12 h-12"
+                            height="48"
+                            src="https://storage.googleapis.com/a1aa/image/e72c2288-09b6-4f4f-7ca6-e58f17a3c9a1.jpg"
+                            width="48" />
+                    </div>
+                    <h3 class="hover:text-[#73be48] font-semibold text-lg mb-2 hover:text-[#73be48] transition-colors">
+                        Formal Tuition
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit platea the ,osr of a proin mollis pretium
+                        facilisi in, ligula volutpat
+                    </p>
+                    <a class=" hover:text-[#73be48] inline-flex items-center text-sm font-normal text-black hover:underline"
+                        href="#">
+                        Read More
+                        <i class="fas fa-arrow-right ml-1">
+                        </i>
+                    </a>
+                </div>
+                <!-- Card 3 -->
+                <div class="relative bg-white border border-gray-100 rounded-lg p-6 pl-20 shadow-sm">
+                    <div
+                        class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-gray-100 rounded-lg p-3 flex items-center justify-center">
+                        <img alt="Green line icon of a robot face with sparkles around it" class="w-12 h-12" height="48"
+                            src="https://storage.googleapis.com/a1aa/image/8c09d1fa-1dcc-4a2b-a8e1-2099b3ed2d2d.jpg"
+                            width="48" />
+                    </div>
+                    <h3 class="hover:text-[#73be48] font-semibold text-lg mb-2">
+                        Preschool
+                    </h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit platea the ,osr of a proin mollis pretium
+                        facilisi in, ligula volutpat
+                    </p>
+                    <a class="hover:text-[#73be48] inline-flex items-center text-sm font-normal text-black hover:underline"
+                        href="#">
+                        Read More
+                        <i class="fas fa-arrow-right ml-1">
+                        </i>
+                    </a>
+                </div>
+                <!-- Card 4 -->
+                <div class="relative bg-white border border-gray-100 rounded-lg p-6 pl-20 shadow-sm">
+                    <div
+                        class="absolute left-0 top-1/2 -translate-y-1/2 bg-white border border-gray-100 rounded-lg p-3">
+                        <img alt="Green line icon of an open book with sparkles around it" class="w-12 h-12" height="48"
+                            src="https://storage.googleapis.com/a1aa/image/af0d35dd-7b55-40cc-d469-20660bf13194.jpg"
+                            width="48" />
+                    </div>
+                    <h3 class="hover:text-[#73be48] font-semibold text-lg mb-2">
+                        Special Tuition
+                    </h3>
+                    <p class=" text-gray-600 text-sm leading-relaxed mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit platea the ,osr of a proin mollis pretium
+                        facilisi in, ligula volutpat
+                    </p>
+                    <a class="hover:text-[#73be48] inline-flex items-center text-sm font-normal text-black hover:underline"
+                        href="#">
+                        Read More
+                        <i class="fas fa-arrow-right ml-1">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+
+    <body class="bg-white">
+        <div class="max-w-7xl mx-auto px-4 py-10">
+            <p class="text-xs text-[#3CB4B8] text-center mb-1">
+                Latest Portfolio
+            </p>
+            <h1 class="text-center font-semibold text-lg leading-6 mb-1">
+                Exploring Minds Elementary School
+            </h1>
+            <h2 class="text-center font-semibold text-base leading-5 mb-6">
+                Education the only school
+            </h2>
+            <div class="flex justify-center space-x-3 mb-10 flex-wrap">
+                <button class="bg-[#E68A1E] text-white text-sm font-semibold rounded-md px-4 py-2">
+                    Education
+                </button>
+                <button class="border border-gray-300 text-gray-600 text-sm font-normal rounded-md px-4 py-2">
+                    School
+                </button>
+                <button class="border border-gray-300 text-gray-600 text-sm font-normal rounded-md px-4 py-2">
+                    Learn
+                </button>
+                <button class="border border-gray-300 text-gray-600 text-sm font-normal rounded-md px-4 py-2">
+                    Child
+                </button>
+                <button class="border border-gray-300 text-gray-600 text-sm font-normal rounded-md px-4 py-2">
+                    Coaching
+                </button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-2 gap-6 max-w-5xl mx-auto">
+                <!-- Ảnh 1 -->
+                <div class="relative group sm:row-span-2">
+                    <img alt="Young girl with pigtails coloring with a pink marker at a desk in a classroom"
+                        class="rounded-lg w-full h-full object-cover" height="400"
+                        src="https://storage.googleapis.com/a1aa/image/85227bc2-4076-43ee-4dc8-ff525fb06f4d.jpg"
+                        width="400" />
+                    <div
+                        class="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div
+                            class="bg-orange-500 bg-opacity-80 rounded-xl p-8 flex flex-col items-center w-[90%] mx-auto transform transition duration-300 group-hover:-translate-y-2 group-hover:scale-105">
+                            <span class="text-white text-xl font-extrabold text-center leading-tight">
+                                Exploring Minds<br>
+                                Elementary Best School
+                            </span>
+                            <span class="text-orange-100 text-base mt-2 mb-6 text-center">
+                                Dreamland Elementary
+                            </span>
+                            <button
+                                class="w-10 h-10 flex items-center justify-center rounded-full bg-white bg-opacity-90 shadow mt-2 hover:bg-orange-200 transition">
+                                <i class="fas fa-arrow-right text-orange-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ảnh 2 -->
+                <div class="relative group">
+                    <img alt="Two young girls playing with blocks and reading a book"
+                        class="rounded-lg w-full h-full object-cover" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/28ed6866-e9de-4118-ef34-50cbd3de2496.jpg"
+                        width="400" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div
+                            class="bg-orange-500 bg-opacity-80 rounded-xl px-8 py-6 flex flex-col items-center w-[90%] mx-auto
+                                    transform transition duration-300 group-hover:-translate-y-2 group-hover:scale-105">
+                            <span class="text-white text-xl font-extrabold text-center leading-tight">
+                                Exploring Minds Elementary Best School
+                            </span>
+                            <span class="text-orange-100 text-base mt-2 mb-6 text-center">
+                                Dreamland Elementary
+                            </span>
+                            <button
+                                class="w-10 h-10 flex items-center justify-center rounded-full bg-white bg-opacity-90 shadow mt-2 hover:bg-orange-200 transition">
+                                <i class="fas fa-arrow-right text-orange-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ảnh 3 -->
+                <div class="relative group">
+                    <img alt="Young girl covering her eyes while coloring at a desk"
+                        class="rounded-lg w-full h-full object-cover" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/f65fc5d9-f1a1-4de7-481a-28aaf8947f99.jpg"
+                        width="400" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div
+                            class="bg-orange-500 bg-opacity-80 rounded-xl px-8 py-6 flex flex-col items-center w-[90%] mx-auto
+                                    transform transition duration-300 group-hover:-translate-y-2 group-hover:scale-105">
+                            <span class="text-white text-xl font-extrabold text-center leading-tight">
+                                Exploring Minds<br>
+                                Elementary Best School
+                            </span>
+                            <span class="text-orange-100 text-base mt-2 mb-6 text-center">
+                                Dreamland Elementary
+                            </span>
+                            <button
+                                class="w-10 h-10 flex items-center justify-center rounded-full bg-white bg-opacity-90 shadow mt-2 hover:bg-orange-200 transition">
+                                <i class="fas fa-arrow-right text-orange-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ảnh 4 -->
+                <div class="relative group">
+                    <img alt="Two young girls playing with blocks and reading a book"
+                        class="rounded-lg w-full h-full object-cover" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/28ed6866-e9de-4118-ef34-50cbd3de2496.jpg"
+                        width="400" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div
+                            class="bg-orange-500 bg-opacity-80 rounded-xl px-8 py-6 flex flex-col items-center w-[90%] mx-auto
+                                    transform transition duration-300 group-hover:-translate-y-2 group-hover:scale-105">
+                            <span class="text-white text-xl font-extrabold text-center leading-tight">
+                                Exploring Minds<br>
+                                Elementary Best School
+                            </span>
+                            <span class="text-orange-100 text-base mt-2 mb-6 text-center">
+                                Dreamland Elementary
+                            </span>
+                            <button
+                                class="w-10 h-10 flex items-center justify-center rounded-full bg-white bg-opacity-90 shadow mt-2 hover:bg-orange-200 transition">
+                                <i class="fas fa-arrow-right text-orange-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ảnh 5 -->
+                <div class="relative group">
+                    <img alt="Young boy playing with stacking toys in a classroom"
+                        class="rounded-lg w-full h-full object-cover" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/8cc2a55c-5d23-49d4-d0f5-c66253609746.jpg"
+                        width="400" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div
+                            class="bg-orange-500 bg-opacity-80 rounded-xl px-8 py-6 flex flex-col items-center w-[90%] mx-auto
+                                    transform transition duration-300 group-hover:-translate-y-2 group-hover:scale-105">
+                            <span class="text-white text-xl font-extrabold text-center leading-tight">
+                                Exploring Minds<br>
+                                Elementary Best School
+                            </span>
+                            <span class="text-orange-100 text-base mt-2 mb-6 text-center">
+                                Dreamland Elementary
+                            </span>
+                            <button
+                                class="w-10 h-10 flex items-center justify-center rounded-full bg-white bg-opacity-90 shadow mt-2 hover:bg-orange-200 transition">
+                                <i class="fas fa-arrow-right text-orange-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <body class="bg-white">
+            <div class="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row md:items-start md:space-x-10">
+                <!-- Hình bé trai bên trái -->
+                <div class="flex-shrink-0 mb-8 md:mb-0 flex items-start">
+                    <img alt="Happy school boy" class="w-[150px] h-[200px] object-contain" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/76e9e1df-2c2a-4381-3934-83d586a466c8.jpg"
+                        width="150" />
+                </div>
+                <!-- Nội dung bên phải -->
+                <div class="flex-1 max-w-5xl">
+                    <div class="flex flex-col md:flex-row md:space-x-8">
+                        <!-- Cột trái: Tiêu đề và nút -->
+                        <div class="md:w-1/3 flex flex-col justify-center">
+                            <p class="text-xs text-[#00b3b3] font-semibold mb-1">Latest Service</p>
+                            <h2 class="font-extrabold text-2xl leading-tight mb-3 max-w-[260px]">
+                                Building a Str Foundation<br>for Success
+                            </h2>
+                            <div class="flex items-center space-x-1 mb-6">
+                                <span class="w-4 h-1 rounded bg-[#00b3b3]"></span>
+                                <span class="w-4 h-1 rounded bg-gray-300"></span>
+                                <span class="w-4 h-1 rounded bg-gray-300"></span>
+                            </div>
+                            <button aria-label="Read More"
+                                class="text-[#00b3b3] border border-[#00b3b3] rounded px-6 py-2 text-sm font-normal flex items-center hover:bg-[#00b3b3] hover:text-white transition w-fit mb-4">
+                                Read More
+                                <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                            </button>
+                        </div>
+                        <!-- Cột phải: Card dịch vụ -->
+                        <div class="md:w-2/3">
+                            <div class="bg-[#fff0e6] rounded-xl p-8 flex flex-col">
+                                <!-- Đoạn mô tả nhỏ phía trên các card -->
+                                <div class="flex justify-end">
+                                    <p class="text-[13px] text-gray-500 mb-4 max-w-xl">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit platea pharetra, nostra
+                                        mattis hendrerit proin mollis pretium facilisi in, ligula volutpat
+                                    </p>
+                                </div>
+                                <!-- Các card dịch vụ -->
+                                <div class="flex flex-col md:flex-row gap-6">
+                                    <!-- Card 1 -->
+                                    <div
+                                        class="flex-1 flex flex-col items-center justify-center text-center bg-transparent px-2 py-6 rounded-lg transition hover:shadow-lg">
+                                        <img alt="Green icon of a puzzle" class="mb-3" height="48"
+                                            src="https://storage.googleapis.com/a1aa/image/7152e158-1eac-443f-bb7d-cf86c38f0482.jpg"
+                                            width="48" />
+                                        <h3 class="font-bold text-lg leading-snug mb-2">
+                                            Learning School<br>heres us
+                                        </h3>
+                                    </div>
+                                    <!-- Card 2 (nổi bật) -->
+                                    <div
+                                        class="flex-1 bg-white rounded-xl p-8 flex flex-col items-center justify-center text-center shadow-lg border border-[#f3e0d6] scale-105 z-10 transition">
+                                        <img alt="Green icon of a baby body" class="mb-3" height="48"
+                                            src="https://storage.googleapis.com/a1aa/image/37ecedf9-4d36-42eb-2dda-a47a0d297d0b.jpg"
+                                            width="48" />
+                                        <h3 class="font-bold text-lg leading-snug mb-2">
+                                            Learning in the<br>School
+                                        </h3>
+                                        <p class="text-[13px] text-gray-500 mb-2 leading-tight">
+                                            Lorem ipsum dolor sit amet a the a conse adipiscing
+                                        </p>
+                                        <a href="#"
+                                            class="text-[#00b3b3] text-sm font-normal flex items-center justify-center hover:underline">
+                                            Read More
+                                            <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Card 3 -->
+                                    <div
+                                        class="flex-1 flex flex-col items-center justify-center text-center bg-transparent px-2 py-6 rounded-lg transition hover:shadow-lg">
+                                        <img alt="Green icon of a teddy bear" class="mb-3" height="48"
+                                            src="https://storage.googleapis.com/a1aa/image/8c09d1fa-1dcc-4a2b-a8e1-2099b3ed2d2d.jpg"
+                                            width="48" />
+                                        <h3 class="font-bold text-lg leading-snug mb-2">
+                                            Stars Preschool<br>our design
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+
+        <main
+            class="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 py-20 flex flex-col md:flex-row items-center md:items-start gap-12 md:gap-24">
+            <div class="relative w-72 h-72 md:w-[320px] md:h-[320px] flex-shrink-0">
+                <img alt="Young girl with glasses and two buns hairstyle wearing teal and green long sleeve shirt holding a laptop"
+                    class="relative rounded-full object-cover w-full h-full" height="320"
+                    src="https://storage.googleapis.com/a1aa/image/95b36929-7977-4f2c-af3d-2379d5c396ec.jpg"
+                    width="320" />
+            </div>
+            <section class="flex-1 max-w-xl">
+                <p class="text-xs font-semibold text-[#00A99D] mb-2">
+                    Some faq
+                </p>
+                <h2 class="font-extrabold text-xl md:text-2xl leading-tight mb-8">
+                    Empowering Children Through
+                    <br />
+                    Education Playful Mind
+                </h2>
+                <div class="space-y-4">
+                    <article class="border border-gray-200 rounded-md p-4">
+                        <header class="flex justify-between items-center mb-2">
+                            <h3 class="font-semibold text-sm md:text-base text-gray-900">
+                                Why do we have to go to school?
+                            </h3>
+                            <button aria-label="Collapse answer"
+                                class="w-7 h-7 bg-[#00A99D] text-white rounded flex items-center justify-center text-lg">
+                                <i class="fas fa-minus">
+                                </i>
+                            </button>
+                        </header>
+                        <p class="text-xs md:text-sm text-gray-500 leading-relaxed">
+                            It is a long established fact that a reader will be distracted by the read content of a page
+                            when looking at its layout. Many desktop publish packages and web page editors now use
+                            Loremdefault model.
+                        </p>
+                    </article>
+                    <article class="border border-gray-200 rounded-md p-4">
+                        <header class="flex justify-between items-center">
+                            <h3 class="font-semibold text-sm md:text-base text-gray-900">
+                                Why do we have to go to school?
+                            </h3>
+                            <button aria-label="Expand answer"
+                                class="w-7 h-7 bg-[#F7941D] text-white rounded flex items-center justify-center text-lg">
+                                <i class="fas fa-plus">
+                                </i>
+                            </button>
+                        </header>
+                    </article>
+                    <article class="border border-gray-200 rounded-md p-4">
+                        <header class="flex justify-between items-center">
+                            <h3 class="font-semibold text-sm md:text-base text-gray-900">
+                                Why do we have to go to school?
+                            </h3>
+                            <button aria-label="Expand answer"
+                                class="w-7 h-7 bg-[#F7941D] text-white rounded flex items-center justify-center text-lg">
+                                <i class="fas fa-plus">
+                                </i>
+                            </button>
+                        </header>
+                    </article>
+                </div>
+                <div class="space-y-4">
+                    <article class="border border-gray-200 rounded-md p-4">
+                        <header class="flex justify-between items-center mb-2">
+                            <h3 class="font-semibold text-sm md:text-base text-gray-900">
+                                Why do we have to go to school?
+                            </h3>
+                            <button aria-label="Collapse answer"
+                                class="w-7 h-7 bg-[#00A99D] text-white rounded flex items-center justify-center text-lg">
+                                <i class="fas fa-minus">
+                                </i>
+                            </button>
+                        </header>
+                        <p class="text-xs md:text-sm text-gray-500 leading-relaxed">
+                            It is a long established fact that a reader will be distracted by the read content of a page
+                            when looking at its layout. Many desktop publish packages and web page editors now use
+                            Loremdefault model.
+                            <button aria-label="Expand answer"
+                                class="w-7 h-7 bg-[#F7941D] text-white rounded flex items-center justify-center text-lg">
+                                <i class="fas fa-plus">
+                                </i>
+                            </button>
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+        </main>
+
+
+
+    </body>
+
+</html>
